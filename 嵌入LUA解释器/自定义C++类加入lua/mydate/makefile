@@ -1,7 +1,7 @@
 OBJ=my_date.o lua_my_date.o
 CC=g++
 CFLAGS=
-LUADIR=/home/users/wuyinguang/install/lua/
+LUADIR=/home/users/cswuyg/install/lua/
 
 libmydate.a: $(OBJ)
 	ar $(CFLAGS) cr libmydate.a $(OBJ)

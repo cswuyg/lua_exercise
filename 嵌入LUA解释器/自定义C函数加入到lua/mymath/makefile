@@ -1,7 +1,7 @@
 OBJ=my_math.o lua_my_math.o
 CC=g++
 CFLAGS=
-LUADIR=/home/users/wuyinguang/install/lua/
+LUADIR=/home/users/cswuyg/install/lua/
 
 libmymath.a: $(OBJ)
 	ar $(CFLAGS) cr libmymath.a $(OBJ)

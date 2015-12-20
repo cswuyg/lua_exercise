@@ -2,7 +2,7 @@ OBJ=lua_wrapper.o main.o
 CC=g++
 CFLAGS=
 ROOTDIR=./../
-LUADIR=/home/users/wuyinguang/install/lua/
+LUADIR=/home/users/cswuyg/install/lua/
 LIBS=-llua -ldl -lmydate
 
 main: $(OBJ)
