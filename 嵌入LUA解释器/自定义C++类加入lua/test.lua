@@ -1,0 +1,7 @@
+date_sub = mydate.date()
+date_sub:set_year("2014")
+date = mydate.date()
+date:set_date(date_sub)
+x = date:get_date()
+print(type(date_sub))
+return x:get_year()

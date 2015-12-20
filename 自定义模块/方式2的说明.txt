@@ -1,0 +1,3 @@
+module关键字是在lua5.1加入的功能。
+学习参考：
+http://www.jellythink.com/archives/526
